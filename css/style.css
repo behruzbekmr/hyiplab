@@ -1,6 +1,12 @@
 /* links font */
 @import url(https://fonts.googleapis.com/css2?family=Manrope:wght@100;200;300;400;500;600;800&display=swap);
 
+/* main text font */
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+/* p font main */
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
 *{
     padding: 0;
     margin: 0;
@@ -48,6 +54,10 @@ header .navbar{
     font-weight: 700;
     font-family: 'Manrope', sans-serif;
     line-height: 27px;
+    transition: all .4s;
+}
+.navbar .links a:hover{
+    color: #afa9ff;
 }
 .navbar .links button{
     width: 187px;
@@ -62,4 +72,79 @@ header .navbar{
     border: none;
     cursor: pointer;
     color:#2C47FA;
+    transition: all .6s;
+}
+.navbar .links button:hover{
+    background-color: rgba(48, 48, 255, 0.763);
+    color: white;
+    border: 1px solid white;
+}
+.head{
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+.head .main-img {
+    width: 50%;
+    display: flex;
+    right: 140px;
+    align-items: center;
+    position: absolute;
+    top: 230px;
+}
+.head .main-img img {
+    position: relative;
+}
+.main-img .girl{
+    width: 488px;
+}
+.main-img .r-img{
+    right: 150px;
+    top: 100px;
+}
+.main-img .l-img {
+    top: -100px;
+    right: -150px;
+}
+.main-text{
+    width: 50%;
+    padding: 30px 0 0 0;
+}
+.main-text h1{
+    font-family: 'Poppins' , sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    color: white;
+    line-height: 80px;
+}
+.main-text p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 30px;
+    width: 90%;
+    color: #ffffff;
+    padding: 5px 0 30px 0;
+}
+.main-text button{
+    width: 446px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #FFFFFF;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    font-style: normal;
+    cursor: pointer;
+    transition: all .6s;
+}
+.main-text button:hover{
+    background: linear-gradient(45deg , aqua , rgb(51, 51, 255));
+}
+.main-text button i{
+    padding: 0 15px;
 }

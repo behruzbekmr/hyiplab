@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+header{
+    position: relative;
+    width: 100%;
+}
+header .bg-head{
+    position: absolute;
+    width: 100%;
+    z-index: -1000;
+}
+header .bg-head-2 {
+    position: absolute;
+    width: 100%;
+    z-index: -1000;
+}

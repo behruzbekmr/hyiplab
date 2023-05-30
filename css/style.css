@@ -8,11 +8,13 @@
 }
 .container{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
 header{
     position: relative;
     width: 100%;
+    height: 120vh;
+    z-index: 2;
 }
 header .bg-head{
     position: absolute;
@@ -63,3 +65,84 @@ header .navbar{
     cursor: pointer;
     color:#2C47FA;
 }
+/* main qismi */
+main {
+    background: #0F1B2B;
+    width: 100%;
+    height: 190vh;
+    position: relative;
+    top: -250px;
+}
+main .part {
+    position: absolute;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    color: #D9D9D9;
+    height: 20vh;
+}
+main .part .money {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+
+}
+.fortune {
+    color: black;
+}
+.forbes {
+    color: #223348;
+}
+main .part2 {
+    color: aliceblue;
+    position: absolute;
+    top: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.part2 .box {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.part2 .box .any {
+    font-size: 52px;
+}
+.part2 .box p {
+    text-align: center;
+    width: 550px;
+}
+.part2 .box2 {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+.part2 .box2 .left, .right {
+    color: #0F1B2B;
+    background: antiquewhite;
+    width: 500px;
+    height: 200px;
+    padding-top: 30px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    
+}
+.your, .poor, .slow, .fells, .visitor, .Struggling {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.part2 .paragrph {
+    margin-top: 40px;
+    font-size: 22px;
+}
+

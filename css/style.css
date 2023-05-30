@@ -14,12 +14,11 @@
 }
 .container{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
 header{
     position: relative;
     width: 100%;
-    z-index: 1000;
 }
 header .bg-head{
     position: absolute;
@@ -73,6 +72,90 @@ header .navbar{
     border: none;
     cursor: pointer;
     color:#2C47FA;
+<<<<<<< HEAD
+}
+/* main qismi */
+main {
+    background: #0F1B2B;
+    width: 100%;
+    height: 190vh;
+    position: relative;
+    top: -250px;
+}
+main .part {
+    position: absolute;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    color: #D9D9D9;
+    height: 20vh;
+}
+main .part .money {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+
+}
+.fortune {
+    color: black;
+}
+.forbes {
+    color: #223348;
+}
+main .part2 {
+    color: aliceblue;
+    position: absolute;
+    top: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.part2 .box {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.part2 .box .any {
+    font-size: 52px;
+}
+.part2 .box p {
+    text-align: center;
+    width: 550px;
+}
+.part2 .box2 {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+.part2 .box2 .left, .right {
+    color: #0F1B2B;
+    background: antiquewhite;
+    width: 500px;
+    height: 200px;
+    padding-top: 30px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    
+}
+.your, .poor, .slow, .fells, .visitor, .Struggling {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.part2 .paragrph {
+    margin-top: 40px;
+    font-size: 22px;
+}
+
+=======
     transition: all .6s;
 }
 .navbar .links button:hover{
@@ -149,78 +232,4 @@ header .navbar{
 }
 .main-text button i{
     padding: 0 15px;
-}
-main{
-    padding: 200px 0 0 0;
-    background-color: #F5F5F5;
-}
-.sponsors{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 80px;
-}
-.sponsors img{
-    width: 550px;
-}
-main .sound-page{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.sound-page .question{
-    text-align: center;
-}
-.question h2{
-    font-family: 'Poppins' , sans-serif;
-    font-style: normal;
-    font-size: 35px;
-    line-height: 80px;
-    font-weight: 600;
-}
-.question p{
-    font-family: 'Roboto' , sans-serif;
-    font-weight: 300;
-    font-size: 17px;
-    line-height: 24px;
-    font-style: normal;
-    width: 60%;
-    padding-bottom: 20px;
-    margin: auto;
-}
-.sound-page .bloks{
-    display: flex;
-    align-items: center;
-    gap: 30px;
-}
-.sound-page .bloks .blok{
-    padding-left: 30px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-right: 80px;
-    display: flex;
-    flex-direction: column;
-    background: #FFFFFF;
-    border-radius: 5px;
-    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
-}
-.sound-page .bloks .blok p{
-    font-family: 'Roboto' , sans-serif;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 17px;
-        line-height: 50px;
-        /* or 364% */
-        display: flex;
-        align-items: center;
-        letter-spacing: -0.03em;
-}
-.sound-page .bloks .blok p{
-    display: flex;
-    gap: 20px;
-}
-.sound-page .bloks .blok p i{
-    background: linear-gradient( 30deg , blue , aqua  );
-    background-clip: border-box;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
 }

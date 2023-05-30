@@ -74,13 +74,13 @@ header .navbar{
     border: none;
     cursor: pointer;
     color:#2C47FA;
-<<<<<<< HEAD
+
 }
 /* main qismi */
 main {
     background: #0F1B2B;
     width: 100%;
-    height: 190vh;
+    min-height: 300vh;
     position: relative;
     top: -250px;
 }
@@ -157,9 +157,7 @@ main .part2 {
     font-size: 22px;
 }
 
-=======
-    transition: all .6s;
-}
+
 .navbar .links button:hover{
     background-color: rgba(48, 48, 255, 0.763);
     color: white;
@@ -234,4 +232,51 @@ main .part2 {
 .main-text button i{
     padding: 0 15px;
 }
->>>>>>> 828199fdd5533f3bd16593ce72de7b38afcaba99
+main .part3 {
+  
+  position: absolute;
+  top: 150vh;
+  width: 100%;
+  display: flex;
+  height: 500px;
+
+
+}
+.stressimg {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+}
+.leftimg {
+    width: 300px;
+    height: 450px;
+    position: absolute;
+    right: 150px;
+}
+.images {
+ 
+  position: relative;
+  width: 800px;
+}
+.text {
+
+    margin-top: 100px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 10px;
+    
+}
+.always {
+    color: #09E9F8;
+}
+.strug {
+    font-size: 42px;
+}
+.lorem {
+    
+    width: 400px;
+}

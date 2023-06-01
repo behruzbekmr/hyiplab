@@ -230,7 +230,6 @@ main .part2 {
 }
 .main-text button i{
     padding: 0 15px;
-<<<<<<< HEAD
 }
 main .part3 {
   
@@ -280,6 +279,220 @@ main .part3 {
     
     width: 400px;
 }
-=======
+
+/* LAST-PAGE OXIRGI QISM */
+.last-page {
+    background: #0F1B2B;
+    width: 100%;
+    height: 140vh;
 }
->>>>>>> c03b37e19d55cb5e9a1b57e3a889ecd7925043f9
+.pricing-plan {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.last-page-h1 {
+    font-size: 42px;
+}
+.last-page-lorem {
+    width: 450px;
+    line-height: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+/* Regulars */
+.Regulars {
+    color: #ffffff;
+    width: 40%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0  20px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.regulars-package {
+    font-size: 43px;
+    margin-top: 30px;
+}
+.regulars-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-right: 140px;
+}
+.low-boxes {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.total-value {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.botton-ordernow {
+    border: 1px solid blue;
+    color: #FFFFFF;
+    background: blue;
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+.time {
+    display: flex;
+    gap: 30px;
+
+}
+.hours {
+    
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 10px;
+    
+}
+.mins {
+    border-radius: 10px;
+    width: 90px;
+     height: 90px;
+     display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.03);
+}
+.sec {
+    border-radius: 10px;
+        width: 90px;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+            background: rgba(255, 255, 255, 0.03);
+       
+}
+.time-hour {
+    font-size: 52px;
+   
+}
+.last-page-boxes {
+    display: flex;
+    gap: 30px;
+    width: 70%;
+    align-items: center;
+    margin-left: 200px;
+    justify-content: space-between;
+} 
+/* TWO-PAGE BOSHLANISHI */
+.two-page {
+    width: 100%;
+    height: 100vh;
+    background: #f5f5f5c3;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+   
+}
+.the-frist-box {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+}
+.the-second-box {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.coachesbox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    height: 120px;
+    position: relative;
+    justify-content: center;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-size: 10px;
+}
+.two-page-images {
+  background: linear-gradient(180deg, #2C47FA 0%, #09E9F8 100%);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: absolute;
+  top: -20px;
+ 
+}
+.two-page-images-img  {
+width: 30px;
+}
+.free-audit {
+    width: 300px;
+     height: 70px;
+     border-radius: 5px;
+     background: linear-gradient(94.17deg, #3732F8 -25.78%, #0091FF 118.51%);
+     border: none;
+     color: #FFFFFF;
+     margin-top: 20px;
+     font-size: 14px;
+}
+/* BLUE-PAGE BOSHLANSHI */
+.blue-page {
+    border: 1px solid red;
+    width: 100%;
+    height: 190vh;
+    background: #2C47FA;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.blue-page-boxes {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    width: 700px;
+    height: 350px;
+    justify-content: center;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.042);
+    padding: 0 20px;
+}
+.blue-boxes-right {
+    width: 450px;
+    height: 200px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.blue-boxes-left {
+    width: 280px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.151);
+    border-radius: 5px;
+}
+

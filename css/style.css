@@ -328,11 +328,11 @@ main .skils {
 .skill-2 .img .page-blok{
     width: 400px;
 }
-<<<<<<< HEAD
+
 
 /* LAST-PAGE OXIRGI QISM */
 .last-page {
-    background: #0F1B2B;
+    background: #0F1B2B !important;
     width: 100%;
     height: 140vh;
 }
@@ -546,7 +546,7 @@ width: 30px;
     border-radius: 5px;
 }
 
-=======
+
 main .laptop {
     width: 70%;
     margin: auto;
@@ -677,4 +677,4 @@ main .store {
 .store .bloks .blok-main .blok2{
     p
 }
->>>>>>> c7f95ac6c2bccfbe46b5e2c7c99d1afbaeead98c
+

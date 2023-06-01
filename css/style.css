@@ -146,6 +146,8 @@ header .navbar{
 }
 .main-text button:hover{
     background: linear-gradient(45deg , aqua , rgb(51, 51, 255));
+    border: none;
+    color: white;
 }
 .main-text button i{
     padding: 0 15px;
@@ -328,11 +330,11 @@ main .skils {
 .skill-2 .img .page-blok{
     width: 400px;
 }
-<<<<<<< HEAD
+
 
 /* LAST-PAGE OXIRGI QISM */
 .last-page {
-    background: #0F1B2B;
+    background: #0F1B2B !important;
     width: 100%;
     height: 140vh;
 }
@@ -546,7 +548,7 @@ width: 30px;
     border-radius: 5px;
 }
 
-=======
+
 main .laptop {
     width: 70%;
     margin: auto;

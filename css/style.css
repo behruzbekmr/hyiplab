@@ -400,6 +400,14 @@ main .skils {
     height: 50px;
     font-size: 18px;
     border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.botton-ordernow:hover {
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    
+
 }
 .time {
     display: flex;
@@ -506,6 +514,13 @@ width: 30px;
      color: #FFFFFF;
      margin-top: 20px;
      font-size: 14px;
+     cursor: pointer;
+     transition: 0.8s;
+}
+.free-audit:hover {
+    background: transparent;
+    border: 2px solid blue ;
+    color: blue;
 }
 /* BLUE-PAGE BOSHLANSHI */
 .blue-page {
@@ -748,7 +763,12 @@ main .store {
     color: #FFFFFF;
     border-radius: 3px;
     border: none;
-
+    transition: all .3s;
+    cursor: pointer;
+}
+.bake-now-button:hover{
+    background-color: transparent;
+    border: 2px solid #2C47FA;
 }
 .main-page-last-lorem {
     font-size: 16px;
@@ -792,7 +812,14 @@ main .store {
     color: #FFFFFF;
     margin-top: 20px;
     font-size: 18px;
-    
+    cursor: pointer;
+    transition: all .4s;
+}
+.page-three-button:hover{
+    scale: 0.96;
+    background: transparent;
+    border: 2px solid #2C47FA;
+    color: #2C47FA;
 }
 /* FOOTER QISMI */
 

@@ -831,3 +831,94 @@ footer {
     width: 200px;
     height: 50px;
 }
+
+/* Media for mobile */
+@media (max-width: 487px ){
+    header .navbar{
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+        padding: 10px 0px;
+        justify-content: center;
+    }
+
+    .navbar .links{
+        margin: 0;
+        padding: 0;
+        gap: 5px;
+        z-index: 10 !important;
+        flex-direction: column;
+    }
+    .navbar button{
+        font-size: 18px !important;
+        width: 120px !important;
+        height: 35px !important;
+    }
+    .navbar .logo{
+        z-index: 2 !important;
+    }
+    .bg-head, .bg-head-2{
+        height: 300px;
+        z-index: 2 !important;
+    }
+    .head{
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        padding: 50px 0 700px 0 !important;
+        gap: 0;
+        background-color: #F5F5F5;
+        display: flex;
+
+    }
+    .main-text{
+        width: 90% !important;
+        margin: auto !important;
+    }
+    .main-text h1{
+        line-height: 65px;
+        font-size: 40px;
+    }
+    .main-text button {
+        width: 300px !important;
+        background-color: #0091FF !important;
+        color: white !important;
+    }
+    .main-img{
+        width: 100% !important;
+        top: 800px !important;
+        position: relative;
+        padding: 0 !important;
+        margin: 0 !important;
+        left: -60px !important;
+    }
+    .main-img .r-img{
+        width: 28% !important;
+        left: -25% !important;
+        top: 60px;
+        right: 0 !important;
+    }
+    .main-img .l-img {
+        width: 28% !important;
+        right: -30%;
+        left: 25%;
+        top: -55px;
+    }
+    .main-img .girl {
+    width: 80% !important;
+    padding-left: 10% !important;
+    padding: 0 !important;
+}
+    .head .main-text h1 {
+        color: black;
+    }
+    .head .main-text p {
+    color: black;
+    }
+    .head .main-text button {
+    color: black;
+    }
+
+
+    /* Asadbek aka */
+}

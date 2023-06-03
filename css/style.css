@@ -956,7 +956,7 @@ footer {
         align-items: center;
         width: 100%;
         background: #000526 !important;
-        min-height: 240vh !important;
+        min-height: 245vh !important;
 
     }
     .pricing-plan {
@@ -977,7 +977,7 @@ footer {
     .Regulars {
         border: 1px solid black;
         width: 90%;
-        height: 600px;
+        height: 70%;
         display: flex !important;
         align-items: center !important;
         padding: 0;
@@ -1041,6 +1041,161 @@ footer {
         margin-left: 120px;
         align-items: center;
     }
-    
-   
+    /* two-Page qsimi */
+    .two-page {
+        width: 100%;
+        min-height: 150vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+       
+    }
+    .the-frist-box {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .the-second-box {
+        display: flex;
+            flex-direction: column;
+            gap: 30px;
+    }
+    .coachesbox {
+       width: 180px;
+       height: 75px;
+       padding: 0  !important;
+       margin: 0;
+    }
+    .two-page-images {
+        width: 25%;
+        height: 40px;
+    }
+    .two-page-images-img {
+        width:  60%;
+    }
+    .free-audit {
+        width: 90%;
+        height: 50px;
+        font-size: 18px;
+    }
+    /* PLUE-PAGE */
+    .blue-page {
+        width: 100%;
+        min-height: 220vh;
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .blue-page-boxes {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .blue-boxes-left {
+        width: 80%;
+        height: 70px;
+    }
+    .blue-boxes-right {
+        width: 100%;
+        font-size: 12px;
+        line-height: 22px;
+    }
+    /* MAIN-PAG-LAST */
+    .main-page-last{
+        min-height: 340vh;
+    }
+    .main-page-last-box {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 20px;
+        
+    }
+    .main-page-last-light {
+        width: 70%;
+    } 
+    .main-page-last-right {
+        width: 90%;
+        display: flex !important;
+        flex-direction: column;
+        gap: 6px;
+    }
+    .main-page-last-box-two {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        height: 70vh;
+        padding-bottom: 20px;
+    }
+    .main-page-last-text {
+        display: flex;
+       align-items: center;
+       height: 300px;
+       gap: 10px;
+    }
+    .main-page-last-h {
+        width: 70%;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+    }
+    .main-page-last-lorem {
+            width: 70%;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            margin-left: 60px;
+        }
+        .bake-now-button {
+            width: 60%;
+            margin-left: 60px;
+            background: blue !important;
+        }
+         .money-main-page-last-img {
+                    width: 200px;
+                    height: 150px;
+         }
+         .main-page-box-three {
+            width: 100%;
+            height: 70%;
+            margin-top: 10px;
+         }
+         .main-page-last-three-box {
+            width: 90%;
+            height: 40%;
+         }
+         .page-three-button {
+            width: 80%;
+            height: 100px;
+         }
+        footer {
+            display: flex;
+            flex-direction: column-reverse;
+            width: 100%;
+            height: 30%;
+            align-items: center !important;
+            justify-content: center;
+            gap: 30px;
+        }
+        .footer-img {
+            margin-left: 170px;
+            width: 60%;
+            height: 25%;
+        }
+        .terms  {
+            margin-right: 170px;
+            width: 90%;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+            padding-left: 30px;
+        }
+        /* media qismi tugadi */
+            
+
+
 }
+        
+    

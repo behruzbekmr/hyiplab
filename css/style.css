@@ -959,6 +959,9 @@ footer {
         min-height: 245vh !important;
 
     }
+    .sponsors img {
+        width: 300px;
+    }
     .pricing-plan {
         width: 100%;
         display: flex;
@@ -1041,6 +1044,114 @@ footer {
         margin-left: 120px;
         align-items: center;
     }
+
+    /* Sound page */
+    .question h2{
+        line-height: 40px;
+    }
+    .question p{
+        width: 90%;
+        padding: 20px 0;
+    }
+    .sound-page .bloks {
+        flex-direction: column !important;
+        margin: 0 20px;
+    }
+    .p-class{
+        text-align: center;
+    }
+
+    .sound-page .blok  p{
+        line-height: 30px !important;
+    }
+    /* Skill */
+    .skils{
+        padding-bottom: 0!important;
+    }
+    .skils .skill-1{
+        flex-direction: column !important;
+    }
+    .skill-1 .img .str-img{
+        width: 100%;
+        left: 3px;
+        top: -70px;
+        z-index: 10;
+    }
+    .skill-1 .img .img-blok{
+        width: 55%;
+        margin-left: -20px;
+        margin-top: -100px;
+    }
+    .skill-1 .text{
+        width: 90%;
+        margin: auto;
+    }
+    .skill-2 .text {
+        margin: 0;
+        width: 100%;
+    }
+    .skill-2 .img .page-blok{
+        right: 0;
+        width: 65% !important;
+        left: 95px;
+    }
+    .skill-2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .skill-2 .img{
+        height: 220px;
+        margin-top: -90px;
+        margin-bottom: 20px;
+    }
+    .skill-2 .img .web-img {
+        margin: 0;
+        padding: 0;
+        left: 50px;
+        right: 0;
+        width: 65%;
+        top: 4600;
+        margin-top: 580px;
+        z-index: 1000   ;
+    }
+    
+    .laptop{
+        display: flex;
+        flex-direction: column;
+        margin: auto !important;
+        padding: 0!important;
+
+    }
+    
+    .laptop .text h2{
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    .laptop .text p{
+        line-height: 35px  !important;
+    }
+    .laptop img{
+        width: 90%;
+        margin: auto;
+    }
+
+    /* Store */
+    .store .bloks{
+        display: flex;
+        flex-direction: column;
+    }
+    .store .bloks .blok-main{
+        display: flex;
+        flex-direction: column;
+        gap: 160px;
+    }
+    .blok-main img{
+        margin-left: -25% !important;
+    }
+ 
     /* two-Page qsimi */
     .two-page {
         width: 100%;

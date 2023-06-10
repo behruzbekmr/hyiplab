@@ -990,7 +990,6 @@ footer {
         font-size: 10px;
         width: 100%;
         border: 1px solid aqua;
-        margin-left: 30px;
         display: flex;
         gap: 7px;
     }
@@ -1036,7 +1035,6 @@ footer {
     }
     .regulars-boxes {
         display: flex;
-        border: 1px solid red;
         width: 60%;
         margin-left: 120px;
         align-items: center;
